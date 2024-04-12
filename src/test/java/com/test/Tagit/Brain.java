@@ -200,7 +200,7 @@ public class Brain {
 			 }
 			
 			 Thread.sleep(3000);
-			 WebElement redirectIcon = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//nb-card-footer[@class='p-2'])[1]/nb-icon")));
+			 WebElement redirectIcon = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//nb-icon[@nbtooltip='Viewer']")));
 			
 			 if (redirectIcon != null && redirectIcon.isDisplayed()) {
 			
