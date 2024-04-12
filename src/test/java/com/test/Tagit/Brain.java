@@ -398,7 +398,7 @@ public class Brain {
 			
 				public void viewer() throws InterruptedException {
 			
-				WebElement redirectIcon2 = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//nb-card-footer[@class='p-2'])[1]/nb-icon")));
+				WebElement redirectIcon2 = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//nb-icon[@nbtooltip='Viewer']")));
 			
 			 if (redirectIcon2 != null && redirectIcon2.isDisplayed()) {
 			
