@@ -200,7 +200,7 @@ public class Brain {
 			 }
 			
 			 Thread.sleep(3000);
-			 WebElement redirectIcon = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//nb-icon[@nbtooltip='Viewer']")));
+			 WebElement redirectIcon = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//nb-icon[@icon='viewer']")));
 			
 			 if (redirectIcon != null && redirectIcon.isDisplayed()) {
 			
@@ -375,7 +375,7 @@ public class Brain {
 			
 				
 			
-				WebElement enterButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//nb-icon[@class='custom-icon search-submit']")));
+				WebElement enterButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//nb-icon[@class='custom-icon search-submit ng-star-inserted']")));
 			
 				if (enterButton != null && enterButton.isDisplayed()) {
 			
@@ -398,7 +398,7 @@ public class Brain {
 			
 				public void viewer() throws InterruptedException {
 			
-				WebElement redirectIcon2 = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//nb-icon[@nbtooltip='Viewer']")));
+				WebElement redirectIcon2 = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//nb-icon[@icon='viewer']")));
 			
 			 if (redirectIcon2 != null && redirectIcon2.isDisplayed()) {
 			
